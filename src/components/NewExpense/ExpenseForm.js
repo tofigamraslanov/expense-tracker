@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './ExpenseForm.css';
 
+// sfc - stateless function component
 const ExpenseForm = props => {
   const [enteredTitle, setEnteredTitle] = useState('');
   const [enteredAmount, setEnteredAmount] = useState(' ');
